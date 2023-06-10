@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="w-screen h-20 md:h-24 bg-slate-900 flex flex-row items-center justify-between">
+    <nav class="w-screen h-20 md:h-24 lg:h-20 bg-slate-900 flex flex-row items-center justify-between lg:sticky top-0 z-20">
         <section class="px-2 flex justify-between items-center lg:grid lg:grid-cols-4">
             <a href="#" id="school_logo" class="font-poppins col-span-3 text-xl text-white font-semibold">
                 School Logo
@@ -38,10 +38,10 @@
     </nav>
 
 
-<main class="lg:grid grid-cols-4 bg-gray-100">
+<main class="lg:grid grid-cols-4 bg-gray-50">
 
-    <section id="nav_menu" class="flex flex-col py-10 w-[0] bg-green-200 h-screen absolute lg:relative top-0 z-10 invisible lg:visible transition-all delay-150 lg:col-span-1 lg:w-auto">
-        
+    <section id="nav_menu" class="flex flex-col py-10 lg:py-2 bg-gray-100 w-[0] h-screen absolute lg:sticky top-0 z-10 invisible lg:visible transition-all delay-150 lg:col-span-1 lg:w-auto lg:top-20">
+
         <div class="inner_menu flex flex-row  items-center pb-10 pt-2 px-2 invisible lg:hidden transition-all delay-100">
             <a href="#" id="avatar">
                 <img class="h-[4.5rem] w-[4.5rem] md:h-28 md:w-28 border-full" src="https://img.icons8.com/color/48/circled-user-female-skin-type-6--v1.png" alt=""/>
@@ -51,7 +51,7 @@
                 <a href="#" id="user_school_number" class="text-lg md:text-2xl text-gray-700 px-2">2088345</a>
             </div>
         </div>
-        <div class="inner_menu grid grid-rows-6 gap-2 px-7 font-poppins text-lg md:text-xl invisible lg:visible transition-all delay-100">
+        <div class="inner_menu grid grid-rows-6 gap-2 px-7 font-poppins text-lg md:text-xl lg:text-lg invisible lg:visible transition-all delay-100">
             <a href="#" class="py-4 border-b lg:border-b-0 border-gray-400">
                 <span class="">Home</span>
             </a>
@@ -68,6 +68,12 @@
                 <span>Change Password</span>
             </a>
             <a href="#" class="py-4 border-b lg:border-b-0 border-gray-400">
+                <span>Session</span>
+            </a>
+            <a href="#" class="py-4 border-b lg:border-b-0 border-gray-400">
+                <span>My Study</span>
+            </a>
+            <a href="#" class="py-4 border-b lg:border-b-0 border-gray-400">
                 <span>Log out</span>
             </a>
         </div>
@@ -75,7 +81,7 @@
 
     </section>
 
-    <section class="grid w-screen lg:w-auto lg:relative  lg:col-span-3 place-items-start">
+    <section class="grid w-screen lg:w-auto lg:relative lg:col-span-3 place-items-start">
         <section class="grid grid-rows-6 grid-cols-2 md:grid-cols-3 py-2 place-items-center text-lg md:text-xl px-2 font-poppins">
             
                 <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[98%] border mx-1.5 my-1 px-2 py-2 md:my-1.5 bg-white rounded sha">

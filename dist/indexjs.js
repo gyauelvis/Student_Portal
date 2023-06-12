@@ -2,7 +2,8 @@ let nav_menu_status = false;
 document.querySelector("#hamburger").addEventListener("click", (e) => {
   let nav_menu = document.querySelector("#nav_menu");
   e.preventDefault();
-  document.body.classList.add("fixed");
+  document.querySelector("nav").classList.add("fixed");
+  document.querySelector(".items").classList.add("fixed");
   if (!nav_menu_status) {
     document
       .querySelectorAll(".inner_menu")
@@ -14,7 +15,8 @@ document.querySelector("#hamburger").addEventListener("click", (e) => {
     }, 50);
   } else {
     e.preventDefault();
-    document.body.classList.remove("fixed");
+    document.querySelector("nav").classList.remove("fixed");
+    document.querySelector(".items").classList.remove("fixed");
     document
       .querySelectorAll(".inner_menu")
       .forEach((menu) => menu.classList.replace("visible", "invisible"));

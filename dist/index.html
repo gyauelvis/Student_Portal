@@ -14,12 +14,12 @@
 </head>
 
 <body class="bg-gray-50">
-    <nav class="w-full h-20 md:h-24 lg:h-20 bg-white shadow-lg shadow-gray-100 flex flex-row items-center justify-between sticky top-0 z-10 lg:z-50 ">
-        <section class="px-2 flex justify-between items-center lg:grid lg:grid-cols-4">
-            <a href="#" id="school_logo" class="font-poppins col-span-3 text-xl text-slate-900 font-semibold">
+    <nav class="w-full h-20 md:h-24 lg:h-24 bg-white shadow-lg shadow-gray-100 flex flex-row items-center justify-between sticky top-0 z-10 lg:z-50 lg:grid grid-cols-2">
+        <section class="px-2 flex flex-row justify-between lg:grid lg:grid-cols-2 lg:col-span-2 items-center">
+            <a href="#" id="school_logo" class="font-poppins  text-xl text-slate-900 font-semibold col-span-1">
                 School Logo
             </a>
-            <div class="flex flex-row justify-center items-center px-2 invisible lg:visible">
+            <div class="flex flex-row justify-center items-center px-2 invisible lg:visible col-span-1 place-items-end">
                 <a href="#" id="avatar_lg">
                     <img class="h-16 w-16 border-full" src="https://img.icons8.com/color/48/circled-user-female-skin-type-6--v1.png" alt=""/>
                 </a>
@@ -31,7 +31,7 @@
         </section>
         <section id="hamburger" class="px-2 flex flex-col lg:hidden">
             <a href="#">
-                <img class="w-10 h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAM0lEQVR4nO3TsQ0AQAzCQPaf0bvkp/iQwifRuyGRdA0wP3c/QBLtG9IOkET7hrQDJGXZA5DCAs8nEq6yAAAAAElFTkSuQmCC">
+                <img class="w-12 h-12" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAM0lEQVR4nO3TsQ0AQAzCQPaf0bvkp/iQwifRuyGRdA0wP3c/QBLtG9IOkET7hrQDJGXZA5DCAs8nEq6yAAAAAElFTkSuQmCC">
             </a>
         </section>
 
@@ -39,18 +39,18 @@
 
 
 <main class="lg:grid grid-cols-5 bg-gray-50">
-    <section id="nav_menu" class="flex flex-col py-6 lg:py-2 bg-gray-50 w-[0] h-screen absolute lg:sticky lg:top-20 z-10 invisible lg:visible transition-all delay-150 lg:col-span-1 lg:w-auto top-0">
+    <section id="nav_menu" class="flex flex-col py-6 lg:py-2 bg-gray-50 w-[0] h-screen  absolute lg:sticky lg:top-20 z-10 invisible lg:visible transition-all lg:justify-between lg:w-[25vw] top-0 ease-in-out">
 
-        <div class="inner_menu flex flex-row  items-center pb-8  px-2 invisible lg:hidden transition-all delay-100">
+        <div class="inner_menu flex flex-row  items-center pb-8  px-2 invisible lg:hidden transition-all ease-in-out">
             <a href="#" id="avatar">
                 <img class="h-[4.5rem] w-[4.5rem] md:h-28 md:w-28 border-full" src="https://img.icons8.com/color/48/circled-user-female-skin-type-6--v1.png" alt=""/>
             </a>
             <div class="flex flex-col justify-evenly">
-                <a href="#" id="user_name" class="font-bold text-lg md:text-2xl px-2 ">Adwoa Ewuara Mansah</a>
+                <a href="#" id="user_name" class="font-bold text-lg md:text-2xl px-2">Adwoa Ewuara Mansah</a>
                 <a href="#" id="user_school_number" class="text-lg md:text-2xl text-gray-700 px-2">2088345</a>
             </div>
         </div>
-        <div class="inner_menu grid grid-rows-6 gap-2 px-7 font-poppins text-lg md:text-xl lg:text-lg invisible lg:visible transition-all delay-100 lg:sticky lg:top-20">
+        <div class="inner_menu grid grid-rows-6 gap-2 px-7 font-poppins text-lg md:text-xl lg:text-lg invisible lg:visible transition-all ease-in-out lg:sticky lg:top-[6.5rem] lg:bottom-0">
             <a href="#" class="py-4 border-b lg:border-b-0 border-gray-400 flex flex-row items-center">
                 <img class="h-6 w-6" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA0ElEQVR4nO2UAQrCMAxFewodHinwAz3HPK44PU0lUiXK6mybzoENBMpK8l8/4zvXq6K89ztp94siogHAWVrOq4oD2DPziZmDNIArMx9WESeigZmnKD7pc3MnoF4O4CKvln9AfWvnBGbEH3fNIfBBvDkEvhBvBoEMcXMIFIibQaBCvBoCBuLFEPQaMsEiWOLOsBhWeItXaWdUemfSCQBHFa9JAL1srhdm7rtFK0U6asusAeLuccEw9xzIuSuZ6QDdge7A9h3ICZySme0C9PqrugEoVK/ceva0OQAAAABJRU5ErkJggg==">
                 <span class="px-1.5">Home</span>
@@ -89,56 +89,56 @@
 
     </section>
 
-    <section class="grid w-screen lg:w-auto lg:col-span-4 place-items-start">
+    <section class="items grid w-screen lg:w-auto lg:col-span-4 place-items-center">
         <section class="grid  grid-cols-2 md:grid-cols-3 py-2 place-items-center text-lg md:text-xl px-2 font-poppins">
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-1.5 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-1.5 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="h-10 w-10" src="https://img.icons8.com/fluency/48/signing-a-document.png"
                         alt="" />
                     <span>Course Registration</span>
                 </a>
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="h-10 w-10" src="https://img.icons8.com/color/48/replace--v1.png" alt="" />
                     <span>Option Change</span>
                 </a>
             
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="w-10 h-10" src="https://img.icons8.com/color/48/purchase-order.png"
-                        alt="purchase-order" />
+                        alt="" />
                     <span>Registration Slip</span>
                 </a>
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="w-10 h-10" src="https://img.icons8.com/color/48/ratings.png" alt="" />
                     <span>Check Results</span>
                 </a>
             
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="h-10 w-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAjUlEQVR4nO2WQQqAMAwE92N5mO/y6j8kb8jZc/2Aom0oap2BvZXSJROoBPA826LSEr0FCvTEPMpVYlJT7MbdFLA/TMA6RhRwJlBQKAMKOQrlGE4hzWtVDh9VczYLBZwJ5BhuiY0CwQSqQCFniXMMp5D4CwWfuX8rZF9fYqNAMIEqUMhZ4hwo5CgEADpnB+bqVQEWKunqAAAAAElFTkSuQmCC">
                     <span>Assess Lectures</span>
                 </a>
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="w-10 h-10" src="https://img.icons8.com/color/48/cash.png" alt=""/>
                     <span>Bills and Payment</span>
                 </a>
             
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="h-10 w-10" src="https://img.icons8.com/color/48/fingerprint.png" alt=""/>
                     <span>Biometric Registration</span>
                 </a>
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="h-10 w-10" src="https://img.icons8.com/color/48/graduation-cap.png" alt=""/>
                     <span>Graduation</span>
                 </a>
             
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="h-8 w-8" src="https://img.icons8.com/color/48/report-card.png" alt=""/>
                     <span>Transcript Request</span>
                 </a>
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="h-10 w-10" src="https://img.icons8.com/color/48/e-learning.png" alt="">                    
                     <span>Virtual Classroom</span>
                 </a>
         
-                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22.5vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
+                <a href="#" class="flex flex-col justify-evenly h-28 w-[45vw] md:h-36 md:w-[30vw] lg:w-[22vw] border mx-2 my-1 px-2 py-2 md:my-1.5 bg-white rounded shadow-sm lg:hover:bg-gray-50 delay-200 ease-in-out">
                     <img class="w-10 h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVR4nO3TMU7DQBAF0G2oCQqnCHR0NFEyQ0UHVwjiCJRQhRmClDbJIRLBjmloAxT4COQGBo4A2nWCgrV2cLxOgTySJXtt/7caj5WqqqqqfNbxtewAywhYPpDlq4wDTDbJsNmf1Cx6MAy3gCUsC3RsIDSmQg46dpH0W7v30Eh2A0mfpQSMsrrYJjlfzm3R3R6yzOL3g44C0tP4ATlxBSDrJxfcIjnMgoH1SzIXboJTu2nSU4Uskb3ojuvuAPd3N3ORBSPJZzIXuuP6/P1oo3Dz9n73By6r1UjyvKLVQTxcLDMzAN6Ha5571NP7v4Zr478T6Vf7O9ne9yc1ZD0A0u8lopExkB63szrl/m4pocn7QEK5w33A3nHMAXvFMSfsDcc1YC84rgkXxv8AX7jWC9cqOIn7h0kus4DFPa8wsL5aXJvzNGD5ucLlCvMKqP9c37VA9YMlTLB/AAAAAElFTkSuQmCC">
                     <span>Alumini</span>
                 </a>

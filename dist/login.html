@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="tailwind.min.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="antialiased bg-gray-200 text-gray-900 font-sans">
+    <div class="flex items-center h-screen w-full">
+        <div class="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
+            <span class="block w-full text-xl uppercase font-bold mb-4">Login</span>
+            <form class="mb-4" action="/" method="post">
+                <div class="mb-4 md:w-full">
+                    <label for="email" class="block text-s mb-1">Username</label>
+                    <input class="w-full border rounded p-2 outline-none focus:shadow-outline" type="email" name="uname"
+                        id="email" placeholder="Username">
+                </div>
+                <div class="mb-6 md:w-full">
+                    <label for="password" class="block text-s mb-1">Password</label>
+                    <input class="w-full border rounded p-2 outline-none focus:shadow-outline" type="password"
+                        name="upassword" id="password" placeholder="Password">
+                </div>
+                <button
+                    class="bg-green-500 hover:bg-green-700 text-white uppercase text-sm font-semibold px-4 py-2 rounded">Login</button>
+            </form>
+            <a class="text-blue-700 text-center text-sm" href="/login">Forgot password?</a>
+        </div>
+    </div>
+</body>
+
+</html>

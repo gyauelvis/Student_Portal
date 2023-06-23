@@ -10,12 +10,12 @@ if (isset($_POST['login'])) {
 
     $sql = mysqli_query($con, "SELECT * FROM student WHERE student_uname='$student_uname' and student_password='$student_password'");
 
-    $students = mysqli_fetch_array($sql);
+    $students = mysqli_fetch_array($sql); // Get the student tuple from the database
 
     if ($students > 0) {
         $redirect = "student.php";
         $_SESSION['login'] = $_POST['uname'];
-        $_SESSION['id'] = $students['studentID'];
+        $_SESSION['id'] = $students['studentID']; 
         echo "<script>window.location.href='" . $redirect . "'</script>";
         exit();
     } else {
